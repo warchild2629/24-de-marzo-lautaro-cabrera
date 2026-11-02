@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>24 de Marzo - Día de la Memoria por la Verdad y la Justicia | E.E.S.T N°3</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        serif: ['Merriweather', 'serif'],
+                    },
+                    colors: {
+                        memory: {
+                            50: '#f6f7f9',
+                            100: '#e3e6ec',
+                            700: '#334155',
+                            800: '#1e293b',
+                            900: '#0f172a',
+                            accent: '#38bdf8',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .hero-overlay {
+            background: linear-gradient(rgba(15, 23, 42, 0.85), rgba(15, 23, 42, 0.95));
+        }
+        .pañuelo-bg {
+            background-image: radial-gradient(#94a3b8 1px, transparent 1px);
+            background-size: 24px 24px;
+        }
+    </style>
+</head>
+<body class="bg-slate-900 text-slate-200 font-sans antialiased selection:bg-sky-500 selection:text-white">
+
+    <!-- Navegación superior -->
+    <nav class="sticky top-0 z-50 bg-slate-900/95 backdrop-blur border-b border-slate-800 text-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex items-center space-x-3">
+                    <span class="bg-sky-600 text-white text-xs font-bold px-2.5 py-1 rounded-md uppercase tracking-wider">E.E.S.T N°3</span>
+                    <span class="text-slate-400 hidden sm:inline">| Proyecto Institucional de Memoria</span>
+                </div>
+                <div class="hidden md:flex space-x-6 text-slate-300 font-medium">
+                    <a href="#introduccion" class="hover:text-sky-400 transition-colors">El Golpe</a>
+                    <a href="#linea-tiempo" class="hover:text-sky-400 transition-colors">Línea de Tiempo</a>
+                    <a href="#ejes" class="hover:text-sky-400 transition-colors">Pilares</a>
+                    <a href="#conadep" class="hover:text-sky-400 transition-colors">CONADEP y Juicio</a>
+                    <a href="#organismos" class="hover:text-sky-400 transition-colors">Organismos</a>
+                    <a href="#nunca-mas" class="hover:text-sky-400 transition-colors">Nunca Más</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header / Hero Section -->
+    <header class="relative bg-slate-950 py-24 md:py-32 overflow-hidden border-b border-slate-800">
+        <div class="absolute inset-0 opacity-10 pañuelo-bg"></div>
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+            <div class="inline-flex items-center space-x-2 bg-slate-800/80 border border-slate-700 px-4 py-1.5 rounded-full text-xs text-sky-400 font-semibold uppercase tracking-widest mb-6">
+                <span>Escuela de Educación Secundaria Técnica N°3</span>
+            </div>
+            <h1 class="text-4xl sm:text-6xl md:text-7xl font-serif font-bold text-slate-100 tracking-tight leading-tight mb-6">
+                24 de Marzo
+            </h1>
+            <p class="text-xl sm:text-2xl text-sky-400 font-light mb-8 max-w-3xl mx-auto">
+                Día Nacional de la Memoria por la Verdad y la Justicia
+            </p>
+            <div class="w-24 h-1 bg-sky-500 mx-auto mb-8 rounded-full"></div>
+            <p class="text-slate-400 max-w-2xl mx-auto text-base sm:text-lg leading-relaxed">
+                Un espacio pedagógico de reflexión, reconstrucción histórica y compromiso ciudadano promovido por la comunidad educativa de la E.E.S.T N°3 para mantener viva la memoria colectiva.
+            </p>
+        </div>
+    </header>
+
+    <!-- Introducción Histórica -->
+    <section id="introduccion" class="py-20 bg-slate-900 border-b border-slate-800">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-serif font-bold text-white mb-4">El Golpe de Estado de 1976</h2>
+                <p class="text-slate-400">El quiebre del orden constitucional y el inicio del periodo más oscuro del país.</p>
+            </div>
+            
+            <div class="space-y-6 text-slate-300 text-lg leading-relaxed font-light">
+                <p>
+                    El <strong class="text-white font-semibold">24 de marzo de 1976</strong>, las Fuerzas Armadas encabezaron un golpe de Estado en la República Argentina que derrocó al gobierno constitucional e instauró una dictadura cívico-militar autonombrada <em>"Proceso de Reorganización Nacional"</em>. Este régimen se extendió hasta el 10 de diciembre de 1983.
+                </p>
+                <p>
+                    A diferencia de interrupciones constitucionales anteriores, la dictadura instauró un sistema sistemático de represión basado en el <strong class="text-sky-400 font-semibold">terrorismo de Estado</strong>. Se suspendieron las garantías constitucionales, se disolvió el Congreso Nacional, se prohibieron los partidos políticos y los sindicatos, y se intervino la educación y las universidades.
+                </p>
+                
+                <div class="my-8 p-6 bg-slate-800/60 border-l-4 border-sky-500 rounded-r-lg">
+                    <h3 class="text-xl font-bold text-white mb-2 font-serif">El Terrorismo de Estado</h3>
+                    <p class="text-base text-slate-300">
+                        Implica el uso de la estructura y recursos del Estado para perseguir, secuestrar, torturar, asesinar y hacer desaparecer de forma clandestina a miles de personas por motivos políticos, ideológicos, sociales o laborales, violando los derechos humanos más elementales.
+                    </p>
+                </div>
+
+                <p>
+                    En el ámbito económico, el régimen implementó políticas neoliberales que desmantelaron el aparato industrial nacional, endeudaron severamente al país y deterioraron el nivel de vida de la clase trabajadora, dejando secuelas estructurales que perduraron durante décadas.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tres Pilares Fundamentales -->
+    <section id="ejes" class="py-20 bg-slate-950 border-b border-slate-800">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-serif font-bold text-white mb-4">Los Tres Pilares</h2>
+                <p class="text-slate-400">Conceptos rectores en la construcción democrática de la Argentina contemporánea.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Memoria -->
+                <div class="bg-slate-900 border border-slate-800 rounded-xl p-8 hover:border-slate-700 transition-all">
+                    <div class="w-12 h-12 bg-sky-500/10 rounded-lg flex items-center justify-center text-sky-400 text-2xl mb-6">
+                        <i class="fa-solid fa-brain"></i>
+                    </div>
+                    <h3 class="text-2xl font-serif font-bold text-white mb-4">Memoria</h3>
+                    <p class="text-slate-400 leading-relaxed text-sm">
+                        La memoria no es una simple mirada nostálgica al pasado, sino un acto activo en el presente. Reconstruir lo sucedido nos permite comprender nuestro presente y evitar la repetición de los horrores del pasado en el futuro.
+                    </p>
+                </div>
+
+                <!-- Verdad -->
+                <div class="bg-slate-900 border border-slate-800 rounded-xl p-8 hover:border-slate-700 transition-all">
+                    <div class="w-12 h-12 bg-sky-500/10 rounded-lg flex items-center justify-center text-sky-400 text-2xl mb-6">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <h3 class="text-2xl font-serif font-bold text-white mb-4">Verdad</h3>
+                    <p class="text-slate-400 leading-relaxed text-sm">
+                        Derecho inalienable de las víctimas, sus familias y la sociedad en su conjunto. Exige el esclarecimiento de los crímenes cometidos, el conocimiento del destino de las personas desaparecidas y el origen de las infancias apropiadas.
+                    </p>
+                </div>
+
+                <!-- Justicia -->
+                <div class="bg-slate-900 border border-slate-800 rounded-xl p-8 hover:border-slate-700 transition-all">
+                    <div class="w-12 h-12 bg-sky-500/10 rounded-lg flex items-center justify-center text-sky-400 text-2xl mb-6">
+                        <i class="fa-solid fa-scale-balanced"></i>
+                    </div>
+                    <h3 class="text-2xl font-serif font-bold text-white mb-4">Justicia</h3>
+                    <p class="text-slate-400 leading-relaxed text-sm">
+                        El juzgamiento de los responsables materiales e intelectuales a través de los tribunales ordinarios de la República, garantizando el debido proceso y rechazando cualquier tipo de impunidad o justicia por mano propia.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Línea de Tiempo -->
+    <section id="linea-tiempo" class="py-20 bg-slate-900 border-b border-slate-800">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-serif font-bold text-white mb-4">Cronología de los Hechos</h2>
+                <p class="text-slate-400">Recorrido histórico desde el golpe de Estado hasta la restitución democrática.</p>
+            </div>
+
+            <div class="relative border-l-2 border-slate-700 ml-4 md:ml-32 space-y-12">
+                <!-- 1976 -->
+                <div class="relative pl-8">
+                    <div class="absolute -left-[9px] top-1.5 w-4 h-4 rounded-full bg-sky-500 border-4 border-slate-900"></div>
+                    <div class="hidden md:block absolute -left-32 top-1 w-24 text-right text-sm font-bold text-sky-400">24 Mar 1976</div>
+                    <span class="md:hidden text-xs font-bold text-sky-400 block mb-1">24 de Marzo de 1976</span>
+                    <h3 class="text-xl font-bold text-white mb-2">Golpe de Estado</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">
+                        La Junta Militar asume el poder. Se inicia el plan sistemático de represión, censura cultural y desmantelamiento de las instituciones democráticas.
+                    </p>
+                </div>
+
+                <!-- 1977 -->
+                <div class="relative pl-8">
+                    <div class="absolute -left-[9px] top-1.5 w-4 h-4 rounded-full bg-slate-700 border-4 border-slate-900"></div>
+                    <div class="hidden md:block absolute -left-32 top-1 w-24 text-right text-sm font-bold text-slate-400">30 Abr 1977</div>
+                    <span class="md:hidden text-xs font-bold text-slate-400 block mb-1">30 de Abril de 1977</span>
+                    <h3 class="text-xl font-bold text-white mb-2">Primera ronda en Plaza de Mayo</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">
+                        Un grupo de madres se reúne por primera vez en la Plaza de Mayo para reclamar por el paradero de sus hijos e hijas desaparecidos, dando origen a la organización.
+                    </p>
+                </div>
+
+                <!-- 1982 -->
+                <div class="relative pl-8">
+                    <div class="absolute -left-[9px] top-1.5 w-4 h-4 rounded-full bg-slate-700 border-4 border-slate-900"></div>
+                    <div class="hidden md:block absolute -left-32 top-1 w-24 text-right text-sm font-bold text-slate-400">2 Abr 1982</div>
+                    <span class="md:hidden text-xs font-bold text-slate-400 block mb-1">2 de Abril de 1982</span>
+                    <h3 class="text-xl font-bold text-white mb-2">Guerra de Malvinas</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">
+                        En su etapa de declive y búsqueda de legitimación, la junta militar inicia el conflicto bélico. La derrota acelera el colapso definitivo del régimen represivo.
+                    </p>
+                </div>
+
+                <!-- 1983 -->
+                <div class="relative pl-8">
+                    <div class="absolute -left-[9px] top-1.5 w-4 h-4 rounded-full bg-slate-700 border-4 border-slate-900"></div>
+                    <div class="hidden md:block absolute -left-32 top-1 w-24 text-right text-sm font-bold text-slate-400">10 Dic 1983</div>
+                    <span class="md:hidden text-xs font-bold text-slate-400 block mb-1">10 de Diciembre de 1983</span>
+                    <h3 class="text-xl font-bold text-white mb-2">Retorno a la Democracia</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">
+                        Asume el gobierno constitucional electo por el pueblo, finalizando la dictadura y abriendo la etapa democrática ininterrumpida más larga de la historia argentina.
+                    </p>
+                </div>
+
+                <!-- 1984 -->
+                <div class="relative pl-8">
+                    <div class="absolute -left-[9px] top-1.5 w-4 h-4 rounded-full bg-slate-700 border-4 border-slate-900"></div>
+                    <div class="hidden md:block absolute -left-32 top-1 w-24 text-right text-sm font-bold text-slate-400">20 Sep 1984</div>
+                    <span class="md:hidden text-xs font-bold text-slate-400 block mb-1">20 de Septiembre de 1984</span>
+                    <h3 class="text-xl font-bold text-white mb-2">Entrega del Informe "Nunca Más"</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">
+                        La CONADEP entrega formalmente al Presidente Raúl Alfonsín el informe que documenta miles de casos de desaparición forzada.
+                    </p>
+                </div>
+
+                <!-- 1985 -->
+                <div class="relative pl-8">
+                    <div class="absolute -left-[9px] top-1.5 w-4 h-4 rounded-full bg-sky-500 border-4 border-slate-900"></div>
+                    <div class="hidden md:block absolute -left-32 top-1 w-24 text-right text-sm font-bold text-sky-400">1985</div>
+                    <span class="md:hidden text-xs font-bold text-sky-400 block mb-1">Año 1985</span>
+                    <h3 class="text-xl font-bold text-white mb-2">Juicio a las Juntas Militares</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">
+                        Juicio histórico a los comandantes de la dictadura. Un hito inédito a nivel mundial por ser juzgados por un tribunal civil de su propio país.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONADEP y Juicio a las Juntas -->
+    <section id="conadep" class="py-20 bg-slate-950 border-b border-slate-800">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-3xl font-serif font-bold text-white mb-6">La CONADEP y el Juicio Histórico</h2>
+                    <p class="text-slate-300 leading-relaxed mb-4">
+                        La <strong class="text-white">Comisión Nacional sobre la Desaparición de Personas (CONADEP)</strong> fue creada en diciembre de 1983 con el objetivo de investigar los crímenes cometidos durante la dictadura militar.
+                    </p>
+                    <p class="text-slate-300 leading-relaxed mb-6">
+                        Presidida por el escritor Ernesto Sabato e integrada por personalidades de la cultura, la ciencia y la sociedad civil, la comisión recolectó miles de testimonios, inspeccionó centros clandestinos de detención y elaboró el emblemático informe titulado <em class="text-sky-400">"Nunca Más"</em>.
+                    </p>
+                    <p class="text-slate-300 leading-relaxed">
+                        Este informe fue la prueba fundamental utilizada durante el <strong class="text-white">Juicio a las Juntas de 1985</strong>, donde la Cámara Nacional de Apelaciones en lo Criminal y Correccional Federal condenó a los máximos jerarcas del régimen dictatorial.
+                    </p>
+                </div>
+
+                <div class="bg-slate-900 p-8 rounded-xl border border-slate-800 space-y-6">
+                    <div class="border-b border-slate-800 pb-4">
+                        <span class="text-sky-400 font-serif text-3xl font-bold block mb-1">+8.900</span>
+                        <span class="text-slate-400 text-sm">Casos documentados inicialmente por la CONADEP en su informe inicial.</span>
+                    </div>
+                    <div class="border-b border-slate-800 pb-4">
+                        <span class="text-sky-400 font-serif text-3xl font-bold block mb-1">500+</span>
+                        <span class="text-slate-400 text-sm">Centros Clandestinos de Detención, Tortura y Exterminio identificados.</span>
+                    </div>
+                    <div>
+                        <span class="text-sky-400 font-serif text-3xl font-bold block mb-1">Unicidad</span>
+                        <span class="text-slate-400 text-sm">Proceso judicial referente de justicia transicional reconocido mundialmente.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Organismos de Derechos Humanos -->
+    <section id="organismos" class="py-20 bg-slate-900 border-b border-slate-800">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-serif font-bold text-white mb-4">El Rol de los Organismos de Derechos Humanos</h2>
+                <p class="text-slate-400">Símbolos de resistencia pacífica, valentía y búsqueda incansable de la verdad.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Madres -->
+                <div class="bg-slate-950 p-8 rounded-xl border border-slate-800">
+                    <div class="flex items-center space-x-4 mb-4">
+                        <div class="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center text-sky-400">
+                            <i class="fa-solid fa-ribbon"></i>
+                        </div>
+                        <h3 class="text-2xl font-serif font-bold text-white">Madres de Plaza de Mayo</h3>
+                    </div>
+                    <p class="text-slate-300 text-sm leading-relaxed mb-4">
+                        Ante el silencio y la complicidad de diversos sectores, las madres comenzaron a reunirse en la Plaza de Mayo frente a la Casa de Gobierno. Con su pañuelo blanco en la cabeza —símbolo derivado originalmente de los pañales de tela de sus hijos— se convirtieron en la referencia ética internacional contra el régimen.
+                    </p>
+                </div>
+
+                <!-- Abuelas -->
+                <div class="bg-slate-950 p-8 rounded-xl border border-slate-800">
+                    <div class="flex items-center space-x-4 mb-4">
+                        <div class="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center text-sky-400">
+                            <i class="fa-solid fa-child"></i>
+                        </div>
+                        <h3 class="text-2xl font-serif font-bold text-white">Abuelas de Plaza de Mayo</h3>
+                    </div>
+                    <p class="text-slate-300 text-sm leading-relaxed mb-4">
+                        Organización dedicada a la búsqueda y restitución de la identidad de niñas y niños sustraídos y nacidos en cautiverio durante la dictadura. Gracias a su impulso, la ciencia desarrolló el "Índice de Afiliación" genético, permitiendo recuperar la verdadera identidad de más de 130 nietos y nietas.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Compromiso Institucional / Escuela Técnica -->
+    <section class="py-20 bg-slate-950 border-b border-slate-800">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <div class="inline-block p-3 bg-sky-500/10 rounded-full text-sky-400 mb-6">
+                <i class="fa-solid fa-graduation-cap text-2xl"></i>
+            </div>
+            <h2 class="text-3xl font-serif font-bold text-white mb-6">El Compromiso de la E.E.S.T N°3</h2>
+            <p class="text-slate-300 text-lg leading-relaxed mb-6 font-light">
+                La educación técnica no solo forma profesionales en competencias científicas y tecnológicas, sino también ciudadanos críticos, éticos y comprometidos con la defensa de los derechos humanos y la vigencia del sistema democrático.
+            </p>
+            <p class="text-slate-400 text-base leading-relaxed">
+                Ejercer el derecho a la memoria desde las aulas es indispensable para comprender que la libertad, la justicia y el respeto por la dignidad humana son pilares innegociables sobre los cuales construimos comunidad cada día.
+            </p>
+        </div>
+    </section>
+
+    <!-- Cierre / Nunca Más -->
+    <section id="nunca-mas" class="py-24 bg-slate-900 text-center relative overflow-hidden">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <h2 class="text-5xl sm:text-7xl font-serif font-bold text-white tracking-widest mb-6 uppercase">
+                ¡Nunca Más!
+            </h2>
+            <p class="text-slate-400 text-lg sm:text-xl max-w-2xl mx-auto font-light leading-relaxed">
+                Consigna fundamental del pueblo argentino para que la violencia estatal y el avasallamiento de las garantías constitucionales no vuelvan a repetirse jamás.
+            </p>
+        </div>
+    </section>
+
+    <!-- Footer Institucional -->
+    <footer class="bg-slate-950 py-12 border-t border-slate-800 text-slate-500 text-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-4">
+            <p class="font-semibold text-slate-400">Escuela de Educación Secundaria Técnica N°3</p>
+            <p class="text-xs text-slate-600">
+                Material de divulgación pedagógica e institucional sobre la Memoria, la Verdad y la Justicia.
+            </p>
+            <p class="text-xs text-slate-600">
+                &copy; Todos los derechos reservados - Contenido informativo y reflexivo.
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
